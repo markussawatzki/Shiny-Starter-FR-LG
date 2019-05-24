@@ -4,7 +4,7 @@
 This project contains research scripts and code for tools for a [technique](TODO)
 which let's you aquire a shiny starter in German/U.S version of Pokemon FireRed/LeafGreen.
 
-#### [Research scripts](TODO)
+#### [Research scripts](./scripts)
 These LUA scripts were used for the research.
 They can be loaded by the [BizHawk multi-system emulator](https://github.com/TASVideos/BizHawk) to reproduce the found results.
 
@@ -21,4 +21,4 @@ If the compiler flag _DELAY_ was set, it waits for a second before simulating th
 
 #### [Tool: routine.bat](TODO)
 Alternatingly executes _shiny.exe_ and _eon_timer_enter.exe_ 
-because applying the technique needs _more than one iteration (with high probability) _.
+because applying the technique needs _more than one iteration (with high probability)_.
