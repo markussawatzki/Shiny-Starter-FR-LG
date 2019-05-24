@@ -1,8 +1,8 @@
 ### [lcrng library](./lcrng_lib)
 
 #### Compilation
-cd ./lcrng_lib  
-gcc -Wall -fPIC -shared -o lcrng.dll -I**INCLUDE_PATH** -L**LIBRARY_PATH** -llua5.1 lcrng.c  
+$ cd ./lcrng_lib  
+$ gcc -Wall -fPIC -shared -o lcrng.dll -I**INCLUDE_PATH** -L**LIBRARY_PATH** -llua5.1 lcrng.c  
   
 where	__INCLUDE_PATH__ is a path to Lua5.1 *.h files,  
 and		__LIBRARY_PATH__ is a path which contains the shared library lua5.1.dll.  
