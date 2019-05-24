@@ -2,7 +2,7 @@
 
 #### Compilation
 ```
-gcc -Wall -std=c99 [-DLANG_DE|-DLANG_US] [-DCLIPBOARD] -I**INCLUDE_PATH** ini.c out.c calc.c shiny.c main.c -o shiny.exe
+gcc -Wall -std=c99 [-DLANG_DE|-DLANG_US] [-DCLIPBOARD] -IINCLUDE_PATH ini.c out.c calc.c shiny.c main.c -o shiny.exe
 ```  
 where __INCLUDE_PATH__ is a path to a directory which contains ini.h.
 
