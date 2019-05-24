@@ -3,7 +3,7 @@
 #### Compilation
 ```
 cd ./lcrng_lib  
-gcc -Wall -fPIC -shared -o lcrng.dll -I**INCLUDE_PATH** -L**LIBRARY_PATH** -llua5.1 lcrng.c  
+gcc -Wall -fPIC -shared -o lcrng.dll -IINCLUDE_PATH -LLIBRARY_PATH -llua5.1 lcrng.c  
 ```
   
 where	__INCLUDE_PATH__ is a path to Lua5.1 *.h files,  
