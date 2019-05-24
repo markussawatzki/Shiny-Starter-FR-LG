@@ -1,0 +1,1 @@
+gcc -Wall -std=c99 -DLANG_DE -DCLIPBOARD ini.c out.c calc.c shiny.c main.c -o shiny.exe
