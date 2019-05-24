@@ -3,8 +3,7 @@
 #### Compilation
 ```
 gcc -Wall -std=c99 [-DDELAY] -o eontimer_enter.exe eontimer_enter.c
-```  
-where __INCLUDE_PATH__ is a path to a directory which contains ini.h.
+```
 
 #### Note
 If the flag __DELAY__ is set, **eontimer_enter.exe** listens _globally_ for a key stroke _RETURN_  
