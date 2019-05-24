@@ -15,10 +15,10 @@ Afterwards **shiny** will ask the user to input the **TID** (in _decimal_).
 It will then print the **target PID frame** for a Pokemon which has properties that were defined by the user in _config.ini_.  
 It will also print a table with Pokemon which occure on frames which are adjacent to the **target PID frame**.
 
-#### [Tool: eon_timer_enter](./eon_timer_enter)
-Searches for the first two windows of running applications with the Name **"EonTimer v1.6"** and simulates a keyboard stroke of the button _RETURN_.  
-If the compiler flag _DELAY_ was set, it waits for a second before simulating the key stroke (_which is useful if the technique is applied for an emulator which runs on the same Windows-system_).  
-
+#### [Tool: eontimer_enter](./eontimer_enter)
+Searches for the first two windows of running applications with the Name **"EonTimer v1.6"**  
+and simulates a keyboard stroke of the button _RETURN_ in the found "EonTimer v1.6" windows after _RETURN_ was pressed by the user.
+  
 #### Tool: routine.bat
 Alternatingly executes _shiny.exe_ and _eon_timer_enter.exe_  
 because applying the technique needs _more than one iteration (with high probability)_.  
