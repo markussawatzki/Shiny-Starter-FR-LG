@@ -1,4 +1,4 @@
-### Shiny Starter FR LG
+## Shiny Starter FR LG
 
 #### Description
 This project contains research scripts and code for tools for a [technique](TODO)  
