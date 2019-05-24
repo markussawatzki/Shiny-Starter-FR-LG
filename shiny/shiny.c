@@ -8,18 +8,20 @@
 
 /* CORE FUNCTIONS */
 
-// copies n to clipboard
-static void copy_to_clipboard(uint32_t n){
-	char buffer[128];
-	sprintf(buffer, "%u", n);
-	HGLOBAL hMem =  GlobalAlloc(GMEM_MOVEABLE, 129);
-	memcpy(GlobalLock(hMem), buffer, 129);
-	GlobalUnlock(hMem);
-	OpenClipboard(0);
-	EmptyClipboard();
-	SetClipboardData(CF_TEXT, hMem);
-	CloseClipboard();
-}
+#ifdef CLIPBOARD
+	// copies n to clipboard
+	static void copy_to_clipboard(uint32_t n){
+		char buffer[128];
+		sprintf(buffer, "%u", n);
+		HGLOBAL hMem =  GlobalAlloc(GMEM_MOVEABLE, 129);
+		memcpy(GlobalLock(hMem), buffer, 129);
+		GlobalUnlock(hMem);
+		OpenClipboard(0);
+		EmptyClipboard();
+		SetClipboardData(CF_TEXT, hMem);
+		CloseClipboard();
+	}
+#endif
 
 // returns 1 if *pkmn has all user-defined properties of the desired Pokemon, otherwise 0
 static uint8_t is_target(const config_t *conf, const pkmn_t *pkmn, uint16_t tid, uint16_t sid){
