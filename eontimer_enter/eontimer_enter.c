@@ -42,7 +42,7 @@ int main(){
 	INPUT ip_u = ip_d;
 	ip_d.ki.dwFlags = KEYEVENTF_KEYUP;
 	
-	printf("[Waiting for RETURN]");
+	printf("[Waiting for RETURN]\n");
 	#ifdef DELAY
 		// wait for global key event VK_RETURN
 		Sleep(100);
