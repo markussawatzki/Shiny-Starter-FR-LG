@@ -22,6 +22,3 @@ and simulates a keyboard stroke of the button _RETURN_ in the found "EonTimer v1
 #### Tool: routine.bat
 Alternatingly executes _shiny.exe_ and _eontimer_enter.exe_  
 because applying the technique needs _more than one iteration (with high probability)_.
-
-### Downloads
-TODO
