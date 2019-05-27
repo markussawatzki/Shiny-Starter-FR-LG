@@ -1,7 +1,7 @@
 ## Shiny Starter FR LG
 
 #### Description
-This project contains research scripts and code for tools for a [technique](TODO)  
+This project contains research scripts and code for tools for a [technique](https://www.reddit.com/r/pokemonrng/comments/btj6iq/rnging_a_shiny_starter_in_fireredleafgreen/)  
 which let's you aquire a shiny starter in German/U.S version of Pokemon FireRed/LeafGreen.
 
 #### [Research scripts](./scripts)
